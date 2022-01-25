@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#da4302",
+          "fontSize": 24,
+          "lineHeight": 35,
+        }
+      }
+    >
+      Start time
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "lineHeight": 50,
+          "textAlign": "center",
+        }
+      }
+    >
+      Sun Apr 12 2020
+      , 
+      17:12:46
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": 80,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00818a",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Start date picker
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "width": 80,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00818a",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Start time picker
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#da4302",
+          "fontSize": 24,
+          "lineHeight": 35,
+        }
+      }
+    >
+      End time
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "lineHeight": 50,
+          "textAlign": "center",
+        }
+      }
+    >
+      Sun Apr 12 2020
+      , 
+      17:12:46
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": 80,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00818a",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                End
+Date
+picker
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "width": 80,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00818a",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                End
+time
+picker
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#da4302",
+          "fontSize": 24,
+          "lineHeight": 35,
+        }
+      }
+    >
+      Event Tag
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 50,
+            "width": 150,
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Select Here",
+                "textColor": undefined,
+                "value": "N/A",
+              },
+              Object {
+                "label": "Study",
+                "textColor": undefined,
+                "value": "Study",
+              },
+              Object {
+                "label": "Work",
+                "textColor": undefined,
+                "value": "Work",
+              },
+              Object {
+                "label": "Relax",
+                "textColor": undefined,
+                "value": "Relax",
+              },
+              Object {
+                "label": "Sleep",
+                "textColor": undefined,
+                "value": "Sleep",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 150,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 30,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#032535",
+                "borderColor": "#2089dc",
+                "borderRadius": 30,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 26,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Submit
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

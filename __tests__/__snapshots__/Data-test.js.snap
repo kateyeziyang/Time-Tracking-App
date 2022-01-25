@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when data is of correct format 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    elevation={5}
+    style={
+      Object {
+        "backgroundColor": "#424874",
+        "flex": 0.08,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 40,
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderColor": "white",
+                "borderRadius": 3,
+                "borderWidth": 0.2,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Clear
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 220,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        D A T A
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 40,
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderColor": "black",
+                "borderRadius": 3,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#2089dc",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Refresh
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.5,
+        "paddingBottom": 40,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 1,
+            "justifyContent": "center",
+            "padding": 15,
+          }
+        }
+      >
+        <Text>
+          Date: 
+          04/12/20
+          
+
+          Start: 
+          2020-4-12 17:12:46
+          
+
+          End: 
+          2020-4-12 17:12:46
+          
+
+          Tag: 
+          Sleep
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly when no data is available 1`] = `null`;
+
+exports[`renders nothing when data is not of correct format 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    elevation={5}
+    style={
+      Object {
+        "backgroundColor": "#424874",
+        "flex": 0.08,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 40,
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderColor": "white",
+                "borderRadius": 3,
+                "borderWidth": 0.2,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Clear
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 220,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        D A T A
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 40,
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderColor": "black",
+                "borderRadius": 3,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#2089dc",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Refresh
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.5,
+        "paddingBottom": 40,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

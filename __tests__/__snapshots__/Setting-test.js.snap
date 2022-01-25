@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    elevation={5}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f7be16",
+        "flex": 0.12,
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 130,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 120,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        App  Lock
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+          "width": 180,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderColor": "#2089dc",
+                "borderRadius": 3,
+                "borderWidth": 0.5,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#2089dc",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Save
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingLeft": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }
+      >
+        Your current 4-digit PIN:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+          }
+        }
+      >
+        When you don't have one, leave it blank.
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 80,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="numeric"
+            maxLength={4}
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderColor": "#ec9b3b",
+                "borderWidth": 2,
+                "fontFamily": "monospace",
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 20,
+          "paddingRight": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }
+      >
+        Your new 4-digit PIN:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+          }
+        }
+      >
+        Leave it blank if you don't want app lock.
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 80,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="numeric"
+            maxLength={4}
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderColor": "#ec9b3b",
+                "borderWidth": 2,
+                "fontFamily": "monospace",
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

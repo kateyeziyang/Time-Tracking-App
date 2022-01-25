@@ -1,0 +1,749 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there is no data available. 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5eb7b7",
+              "fontSize": 25,
+            }
+          }
+        >
+          ❶
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 200,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+          Pick a Time Range
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 50,
+        }
+      }
+    >
+      <Text>
+        From
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 70,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#c2e8ce",
+            "borderWidth": 2,
+            "height": 40,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="04/13/20"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 30,
+        }
+      }
+    >
+      <Text>
+        To
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 70,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#c2e8ce",
+            "borderWidth": 2,
+            "height": 40,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="04/19/20"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 90,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+          }
+        }
+      >
+        MM/DD/YY
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5eb7b7",
+              "fontSize": 25,
+            }
+          }
+        >
+          ❷
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 200,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+          Select Chart Type
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 50,
+            "width": 190,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        >
+          <RNCPicker
+            items={
+              Array [
+                Object {
+                  "label": "Pie Chart",
+                  "textColor": undefined,
+                  "value": "Pie",
+                },
+                Object {
+                  "label": "Stacked-Bar Chart",
+                  "textColor": undefined,
+                  "value": "Stacked",
+                },
+              ]
+            }
+            onChange={[Function]}
+            selectedIndex={0}
+            style={
+              Array [
+                Object {
+                  "height": 216,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 20,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 50,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 14,
+              "shadowColor": "rgba(0,0,0, .4)",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 1,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fc7978",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 14,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                OK
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with pie chart when there is some data 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5eb7b7",
+              "fontSize": 25,
+            }
+          }
+        >
+          ❶
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 200,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+          Pick a Time Range
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 50,
+        }
+      }
+    >
+      <Text>
+        From
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 70,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#c2e8ce",
+            "borderWidth": 2,
+            "height": 40,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="04/13/20"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 30,
+        }
+      }
+    >
+      <Text>
+        To
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 70,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#c2e8ce",
+            "borderWidth": 2,
+            "height": 40,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="04/19/20"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "width": 90,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+          }
+        }
+      >
+        MM/DD/YY
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5eb7b7",
+              "fontSize": 25,
+            }
+          }
+        >
+          ❷
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "justifyContent": "center",
+            "width": 200,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+          Select Chart Type
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 50,
+            "width": 190,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        >
+          <RNCPicker
+            items={
+              Array [
+                Object {
+                  "label": "Pie Chart",
+                  "textColor": undefined,
+                  "value": "Pie",
+                },
+                Object {
+                  "label": "Stacked-Bar Chart",
+                  "textColor": undefined,
+                  "value": "Stacked",
+                },
+              ]
+            }
+            onChange={[Function]}
+            selectedIndex={0}
+            style={
+              Array [
+                Object {
+                  "height": 216,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 20,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 50,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 14,
+              "shadowColor": "rgba(0,0,0, .4)",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 1,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fc7978",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 14,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingBottom": 1,
+                    "paddingTop": 2,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                OK
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
